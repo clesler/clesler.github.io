@@ -45,6 +45,7 @@
 
 body {
     margin: 0;
+    position: relative;
     font-family: "Heebo", sans-serif;
     font-size: 1rem;
     font-weight: 400;
