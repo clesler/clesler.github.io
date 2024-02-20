@@ -4570,7 +4570,7 @@ fieldset:disabled .btn {
     }
 
     .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute
+        position: relative
     }
 
     .navbar-expand-md .navbar-nav .nav-link {
