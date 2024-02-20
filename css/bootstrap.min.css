@@ -4428,6 +4428,7 @@ fieldset:disabled .btn {
 
 .navbar {
     position: relative;
+    width: max-content;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
