@@ -45,7 +45,6 @@
 
 body {
     margin: 0;
-    position: relative;
     font-family: "Heebo", sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -642,8 +641,8 @@ progress {
     width: 100%;
     padding-right: var(--bs-gutter-x, .75rem);
     padding-left: var(--bs-gutter-x, .75rem);
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto
 }
 
 .row {
@@ -4381,7 +4380,6 @@ fieldset:disabled .btn {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: max-content;
     padding-top: .5rem;
     padding-bottom: .5rem
 }
@@ -4402,7 +4400,7 @@ fieldset:disabled .btn {
 .navbar-brand {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-right: 0;
+    margin-right: 1rem;
     font-size: 1.25rem;
     white-space: nowrap
 }
