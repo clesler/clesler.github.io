@@ -451,6 +451,21 @@ h6 {
 	width: 75%;
 }
 
+@media (max-width: 768px) {
+	.test-text {
+		font-size: 14px;
+		/* Smaller font size for mobile devices */
+		line-height: 1.4;
+	}
+
+	.test-text .title span {
+		display: block;
+		/* Makes title go on new line for clarity */
+		margin-bottom: 5px;
+		/* Adds a little space below the title */
+	}
+}
+
 .slider .title {
 	display: block;
 	position: relative;
